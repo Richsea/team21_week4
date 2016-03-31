@@ -10,7 +10,7 @@ public class calculateBill {
 		this.lineNum = user.getLineNum();
 	}
 	
-	public double calBasicBill(){
+	public float calBasicBill(){
 		if(3 <  lineNum )
 			return user.getGrade().getter_basicBill() + 2*user.getGrade().lineAddBill ;
 		else if (0 < lineNum )
@@ -21,7 +21,7 @@ public class calculateBill {
 		}
 	}
 	
-	public double calAddBill(){
+	public float calAddBill(){
 		int limitMin = user.getGrade().getter_limitMin();
 		int min = user.getMin();
 		

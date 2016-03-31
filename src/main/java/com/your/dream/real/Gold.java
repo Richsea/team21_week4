@@ -9,13 +9,13 @@ public class Gold extends Grade{
 		limitMin = 1000;
 	}
 	
-	double getter_basicBill(){
+	float getter_basicBill(){
 		return basicBill;
 	}
-	double getter_lineBill(){
+	float getter_lineBill(){
 		return lineAddBill;
 	}
-	double getter_minBill(){
+	float getter_minBill(){
 		return minAddBill;
 	}
 	int getter_limitMin(){

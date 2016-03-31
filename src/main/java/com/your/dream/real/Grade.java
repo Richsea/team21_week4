@@ -1,9 +1,7 @@
 package com.your.dream.real;
 
 public class Grade {
-	double basicBill;
-	double lineAddBill;
-	double minAddBill;
+	float basicBill, lineAddBill, minAddBill;
 	int limitMin;
 	
 	public Grade(){
